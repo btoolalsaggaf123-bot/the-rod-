@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جميع المنتجات</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #5c0466;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px auto;
+            max-width: 800px;
+            color: #555;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 10px;
+        }
+
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .grid-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            margin-top:35px;
+            padding: 2px;
+            background-color: #0d6efd;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div class="body">
+    <h2>جميع المنتجات</h2>
+    <p>ماركات سكرب طبي | أفضل وأشهر ماركات الملابس الطبية</p>
+    <p>
+        هنا يمكن أن تضيف وصفًا للمنتجات، مثل تفاصيل عن الجودة، المواد المستخدمة،
+        والألوان المتاحة.
+    </p>
+
+    <div class="grid-container">
+        <img src="2d064690-1c97-4758-8be0-59d9734131ca.jpg" alt="منتج 1">
+        <img src="5f0fb031-7b32-4da1-a827-9fbf26eaefb6.jpg" alt="منتج 2">
+        <img src="7ffd7f4e-a819-4050-bdd1-f99c89ab30c7.jpg" alt="منتج 3">
+        <img src="65e6fa20-91c4-42db-baf2-1e7f126bd81e.jpg" alt="منتج 4">
+        <img src="954b9776-4895-4461-a944-8a04d9f605a5.jpg" alt="منتج 5">
+        <img src="a22a3e32-ab2b-488b-b439-adf8b8d9951b.jpg" alt="منتج 6">
+    </div>
+
+    <footer>
+        جميع الحقوق محفوظة © 2024
+    </footer>
+
+</body></div>
+</html>
